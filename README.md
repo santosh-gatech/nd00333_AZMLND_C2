@@ -102,7 +102,7 @@ Here we can observe the ouput
 
 6) ML Studio
 
-![plot](./starter_files/Step_8_Capture_1.PNG)
+![plot](./starter_files/Step_7_Capture_2_pipeline_endpoint.PNG)
 
 ## Screen Recording
 
