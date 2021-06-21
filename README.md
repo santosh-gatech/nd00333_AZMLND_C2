@@ -12,6 +12,10 @@ The similar process is then followed using pipelines.
 
 ![plot](./starter_files/Architecture_Diagram.png)
 
+## How to improve the project in future
+
+I would like to try different deep learning architecures to see the difference in accuracy. Also, I would like to focus on the different data augmentation techniques to improve accuracy.      
+
 ## Key Steps
 
 ### Step 1 - Authentication (skipped)
