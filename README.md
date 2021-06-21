@@ -48,10 +48,59 @@ The similar process is then followed using pipelines.
 
 ![plot](./starter_files/Step_3_Capture_3_deploy_automl_logs.PNG)
 
+### Step 5 - Swagger Documentation
 
+It makes it easy to see the details of the endpoint.
+
+1)
+
+![plot](./starter_files/Step_5_Capture_1_swagger.PNG)
+
+2) 
+
+![plot](./starter_files/Step_5_Capture_2_swagger.PNG)
+
+3)
+
+![plot](./starter_files/Step_5_Capture_3_swagger.PNG)
+
+4)
+
+![plot](./starter_files/Step_5_Capture_4_swagger.PNG)
+
+### Step 6 - Consume Model Endpoints 
+
+Here we can observe the ouput
+
+![plot](./starter_files/Step_6_Capture_1_endpoint.PNG)
+
+### Step 7 - Create, Publish and Consume a Pipeline
+
+1) Pipeline has been created
+
+![plot](./starter_files/Step_7_Capture_2_pipeline_endpoint.PNG)
+
+2) Pipeline Endpoint
+
+![plot](./starter_files/Step_7_Capture_3_pipeline_endpoint_completed.PNG)
+
+3) Bank marketing dataset with AutoML module
+
+![plot](./starter_files/Step_7_Capture_4_sdk_automl_completed.PNG)
+
+4) Published Pipeine overview showing a REST endpoint and status ACTIVE
+
+![plot](./starter_files/Step_7_Capture_5_sdk_pipeline_endpoint_active.PNG)
+
+5) RunDetails widget
+
+![plot](./starter_files/Step_7_Capture_7_status.PNG)
+
+6) ML Studio
+
+![plot](./starter_files/Step_8_Capture_1.PNG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+Video url: https://youtu.be/SN8rV-0b8Xg
+
