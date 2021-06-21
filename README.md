@@ -86,8 +86,17 @@ Here we can observe the ouput. A deployed service can be consumed via an HTTP AP
 
 Pipelines are great way to automate workflows.
 
-1) Pipeline has been created
+1) Pipeline has been created.
 
+Below Python SDK class was used to create Pipeline. Aside from accepting a workspace and allowing multiple steps to be passed in, it uses a description that is useful to identify it later.
+
+```
+from azureml.pipeline.core import Pipeline
+pipeline = Pipeline(
+    description="pipeline_with_automlstep",
+    workspace=ws,    
+    steps=[automl_step])
+```
 ![plot](./starter_files/Step_7_Capture_2_pipeline_endpoint.PNG)
 
 2) Pipeline Endpoint
@@ -99,6 +108,8 @@ Pipelines are great way to automate workflows.
 ![plot](./starter_files/Step_7_Capture_4_sdk_automl_completed.PNG)
 
 4) Published Pipeine overview showing a REST endpoint and status ACTIVE
+
+Publishing a pipeline is the process of making a pipeline publicly available. When a Pipeline is published, a public HTTP endpoint becomes available, allowing other services, including external ones, to interact with an Azure Pipeline.
 
 ![plot](./starter_files/Step_7_Capture_5_sdk_pipeline_endpoint_active.PNG)
 
